@@ -9,6 +9,10 @@
 // -----------------------------------------------------------------
 function removeEvens(list) {
   // list is an array of numbers
+  const oddNumbers = list.filter(function (number) {
+    return number % 2 !== 0;
+  });
+  return oddNumbers;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
