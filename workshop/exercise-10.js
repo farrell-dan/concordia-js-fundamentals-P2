@@ -10,6 +10,7 @@
 // -----------------------------------------------------------------
 function allLong(list) {
   // list is an array of strings
+  return list.every( elements => elements.length >= 5);
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
