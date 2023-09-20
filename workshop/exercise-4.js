@@ -7,6 +7,9 @@
 // -----------------------------------------------------------------
 function calculateAverage(num1, num2, num3, num4, num5) {
   // code here
+  let sum = num1 + num2 + num3 + num4 + num5
+  let ave = sum / 5
+  return Math.round(ave);
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
