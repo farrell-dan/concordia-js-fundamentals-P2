@@ -11,6 +11,8 @@
 // -----------------------------------------------------------------
 function removeStringFromArray(array, string) {
   // complete the function
+return array.filter(item => item !== string);
+
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

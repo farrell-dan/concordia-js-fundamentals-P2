@@ -17,6 +17,22 @@
 // -----------------------------------------------------------------
 function removeMiddleName(string) {
   // complete the function
+  let lastName = string.split(" ").pop();
+  let firstName = string.split(" ").shift();
+  if (firstName === lastName) {
+    return firstName
+  }else
+  return firstName + " " + lastName
+
+  // let nameArray2= nameArray[0] + nameArray[2];
+  console.log(nameArray)
+  // console.log(nameArray[0])
+
+  // console.log(nameArray[2])
+  console.log(nameArray2)
+
+  // return nameArray.concat(nameArray[0] + " " + nameArray[-1]);
+
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
