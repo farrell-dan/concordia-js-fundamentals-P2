@@ -9,6 +9,10 @@
 // -----------------------------------------------------------------
 function keepLong(list) {
   // list is an array of strings
+  const longNames = list.filter(function (names){
+    return names.length >5 ;
+  });
+  return longNames;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
