@@ -19,7 +19,6 @@ function getLetterGrade(grades) {
     sum += grades[grade];
   }
   const average = (sum / grades.length);
-  
   if (average < 60) {
     return `F`;
   } else if (average < 70){
