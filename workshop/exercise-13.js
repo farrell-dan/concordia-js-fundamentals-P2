@@ -7,6 +7,13 @@
 // -----------------------------------------------------------------
 function countBs(str) {
   // str is a string
+  let count = 0
+  for (let letter = 0; letter <str.length; letter++){
+    if (str[letter] === "B"){
+      count++;
+    }
+  }
+  return count;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
